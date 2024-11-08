@@ -1,0 +1,121 @@
+/* register.component.css */
+.register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+  }
+  
+  input[type="text"]::placeholder,
+  input[type="password"]::placeholder {
+    color: #ccc;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border: 2px solid #fff;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button[type="submit"].btn-primary {
+    background: #28a745;
+    color: white;
+  }
+  
+  button.btn-primary:hover {
+    background: #218838;
+  }
+  
+  button.btn-accent {
+    background: #007bff;
+    color: white;
+  }
+  
+  button.btn-accent:hover {
+    background: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 600px) {
+    .register-container {
+      padding: 20px;
+    }
+  
+    button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+
+  /* register.component.css */
+.alert {
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .alert.success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .alert.error {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  
